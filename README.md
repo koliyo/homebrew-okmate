@@ -1,7 +1,15 @@
 # Homebrew tap for Okmate
 
 ```sh
+brew install --cask koliyo/okmate/okmate
+```
+
+Homebrew 6 will not load a third-party tap until it is trusted. The
+fully qualified name trusts only this cask. To trust the whole tap:
+
+```sh
 brew tap koliyo/okmate
+brew trust koliyo/okmate
 brew install --cask okmate
 ```
 
