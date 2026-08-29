@@ -1,5 +1,5 @@
 cask "okmate" do
-  version "0.3.1"
+  version "0.3.3"
   sha256 :no_check
 
   url "https://github.com/koliyo/okmate/releases/download/v#{version}/Okmate.zip"
